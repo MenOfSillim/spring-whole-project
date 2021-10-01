@@ -1,7 +1,7 @@
 package com.mini2S.common.role.service;
 
 import com.mini2S.common.role.model.entity.Roles;
-import com.mini2S.configuration.reposotory.RolesRepository;
+import com.mini2S.common.role.repository.RolesRepository;
 import com.mini2S.model.response.CommonResult;
 import com.mini2S.service.ResponseService;
 import lombok.AllArgsConstructor;

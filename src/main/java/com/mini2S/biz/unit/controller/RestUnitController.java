@@ -1,7 +1,7 @@
 package com.mini2S.biz.unit.controller;
 
 import com.mini2S.biz.unit.model.entity.Unit;
-import com.mini2S.configuration.reposotory.UnitRepository;
+import com.mini2S.biz.unit.repository.UnitRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

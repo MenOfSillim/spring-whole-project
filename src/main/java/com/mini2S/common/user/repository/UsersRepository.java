@@ -1,4 +1,4 @@
-package com.mini2S.configuration.reposotory;
+package com.mini2S.common.user.repository;
 
 import com.mini2S.common.user.model.dto.UsersCoordDto;
 import com.mini2S.common.user.model.entity.Users;

@@ -1,4 +1,4 @@
-package com.mini2S.configuration.reposotory;
+package com.mini2S.biz.branch.service;
 
 import com.mini2S.biz.branch.model.dto.BranchListDto;
 import com.mini2S.biz.branch.model.entity.Branch;

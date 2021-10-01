@@ -1,4 +1,4 @@
-package com.mini2S.configuration.reposotory;
+package com.mini2S.biz.contract.repository;
 
 import com.mini2S.biz.contract.model.entity.Contract;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -4,7 +4,6 @@ import com.mini2S.biz.contract.model.dto.InsertContractDto;
 import com.mini2S.biz.contract.model.dto.SelectContractDto;
 import com.mini2S.biz.contract.model.entity.Contract;
 import com.mini2S.biz.contract.service.ContractService;
-import com.mini2S.configuration.reposotory.ContractRepository;
 import com.mini2S.model.response.CommonResult;
 import com.mini2S.service.ResponseService;
 import io.swagger.annotations.Api;
@@ -21,7 +20,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Api(tags = {"5. Contract"})

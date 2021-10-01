@@ -1,4 +1,4 @@
-package com.mini2S.configuration.reposotory;
+package com.mini2S.common.role.repository;
 
 import com.mini2S.common.role.model.entity.Roles;
 import org.springframework.data.jpa.repository.JpaRepository;

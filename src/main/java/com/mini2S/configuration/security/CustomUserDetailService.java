@@ -1,6 +1,6 @@
 package com.mini2S.configuration.security;
 
-import com.mini2S.configuration.reposotory.UsersRepository;
+import com.mini2S.common.user.repository.UsersRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

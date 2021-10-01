@@ -1,25 +1,18 @@
 package com.mini2S.biz.contract.service;
 
 import com.mini2S.biz.contract.model.dto.InsertContractDto;
-import com.mini2S.biz.contract.model.dto.SelectContractDto;
 import com.mini2S.biz.contract.model.entity.Contract;
 import com.mini2S.common.user.model.entity.Users;
 import com.mini2S.common.util.qrcode.QrCode;
-import com.mini2S.configuration.reposotory.ContractRepository;
-import com.mini2S.configuration.reposotory.UsersRepository;
-import com.mini2S.model.response.CommonResult;
-import com.mini2S.service.ResponseService;
+import com.mini2S.biz.contract.repository.ContractRepository;
+import com.mini2S.common.user.repository.UsersRepository;
 import javassist.NotFoundException;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Slf4j
 @AllArgsConstructor
